@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Diet pada Penderita Gangguan Pencernaan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(to bottom right, #fce4ec, #e0f7fa);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(5px);
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      color: #4a148c;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+      color: #00796b;
+    }
+
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+
+    .bubble {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.3;
+      background: white;
+      animation: float 20s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0% {
+        transform: translateY(100vh) scale(0.5);
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.4;
+      }
+      100% {
+        transform: translateY(-10vh) scale(1.2);
+        opacity: 0;
+      }
+    }
+
+    .bubble:nth-child(odd) {
+      background: #f8bbd0;
+    }
+
+    .bubble:nth-child(even) {
+      background: #b2ebf2;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="lagu.mp3" type="audio/mpeg">
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <!-- Bubbles -->
+  <div class="bubble" style="width: 40px; height: 40px; left: 10%; animation-delay: 0s;"></div>
+  <div class="bubble" style="width: 25px; height: 25px; left: 20%; animation-delay: 2s;"></div>
+  <div class="bubble" style="width: 60px; height: 60px; left: 35%; animation-delay: 4s;"></div>
+  <div class="bubble" style="width: 30px; height: 30px; left: 50%; animation-delay: 1s;"></div>
+  <div class="bubble" style="width: 50px; height: 50px; left: 70%; animation-delay: 3s;"></div>
+  <div class="bubble" style="width: 45px; height: 45px; left: 85%; animation-delay: 5s;"></div>
+
+  <header>
+    <h1>Diet pada Penderita Gangguan Pencernaan</h1>
+  </header>
+
+  <section>
+    <h2>Pendahuluan</h2>
+    <p>Gangguan pencernaan adalah masalah umum... Artikel ini bertujuan untuk membahas pendekatan gizi yang tepat bagi penderita gangguan pencernaan.</p>
+
+    <h2>Jenis-Jenis Gangguan Pencernaan</h2>
+    <ol>
+      <li><strong>Gastritis (Maag)</strong>: Peradangan lambung... nyeri ulu hati, mual, muntah, dan rasa penuh setelah makan.</li>
+      <li><strong>GERD</strong>: Asam lambung naik ke kerongkongan... heartburn, regurgitasi, rasa asam di mulut.</li>
+      <li><strong>IBS</strong>: Gangguan fungsi usus... nyeri perut, kembung, diare, atau konstipasi.</li>
+      <li><strong>Konstipasi</strong>: Frekuensi BAB jarang, tinja keras... disebabkan oleh kurangnya asupan serat, cairan, dan aktivitas fisik.</li>
+    </ol>
+
+    <h2>Prinsip Diet untuk Gangguan Pencernaan</h2>
+    <ul>
+      <li>Makan dalam porsi kecil tapi sering</li>
+      <li>Hindari makanan iritatif: pedas, asam, berlemak</li>
+      <li>Hindari minuman berkafein dan bersoda</li>
+      <li>Cukupi cairan harian</li>
+      <li>Konsumsi makanan lunak dan mudah dicerna</li>
+      <li>Pilih serat yang sesuai jenis gangguan</li>
+      <li>Perhatikan suhu makanan</li>
+    </ul>
+
+    <h2>Contoh Menu Diet Sesuai Jenis Gangguan</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Jenis Gangguan</th>
+          <th>Makanan Disarankan</th>
+          <th>Makanan yang Dihindari</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Gastritis</td>
+          <td>Bubur, pisang, sayur rebus</td>
+          <td>Cabai, kopi, gorengan</td>
+        </tr>
+        <tr>
+          <td>GERD</td>
+          <td>Oatmeal, roti tawar, apel</td>
+          <td>Cokelat, makanan berlemak</td>
+        </tr>
+        <tr>
+          <td>IBS</td>
+          <td>Nasi putih, kentang kukus</td>
+          <td>Kacang-kacangan, brokoli</td>
+        </tr>
+        <tr>
+          <td>Konstipasi</td>
+          <td>Sayur hijau, pepaya, air putih</td>
+          <td>Keju, makanan olahan</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Faktor Lain yang Mempengaruhi Pencernaan</h2>
+    <ul>
+      <li>Stres memperburuk gejala</li>
+      <li>Kebiasaan makan buruk</li>
+      <li>Kurang tidur dan aktivitas fisik</li>
+    </ul>
+
+    <h2>Penyesuaian Diet secara Individual</h2>
+    <p>Setiap individu memiliki respons berbeda terhadap makanan... pencatatan makanan dan gejala sangat membantu.</p>
+
+    <h2>Kesimpulan</h2>
+    <p>Diet berperan besar dalam menangani gangguan pencernaan... penyesuaian diet secara individual sangat dianjurkan.</p>
+
+    <h2>Referensi</h2>
+    <ol>
+      <li>Academy of Nutrition and Dietetics. (2020)</li>
+      <li>NIDDK. (2023)</li>
+      <li>Mayo Clinic. (2024)</li>
+    </ol>
+  </section>
+</body>
+</html>
